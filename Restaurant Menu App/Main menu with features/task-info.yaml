@@ -1,17 +1,5 @@
 type: edu
 files:
-- name: src/main/java/org/hyperskill/ordersmenu/theme/Color.kt
-  visible: true
-  text: |-
-    package org.hyperskill.ordersmenu.theme
-
-    import androidx.compose.ui.graphics.Color
-
-    val Purple200 = Color(0xFFBB86FC)
-    val Purple500 = Color(0xFF6200EE)
-    val Purple700 = Color(0xFF3700B3)
-    val Teal200 = Color(0xFF03DAC5)
-  learner_created: false
 - name: src/main/java/org/hyperskill/ordersmenu/theme/Shape.kt
   visible: true
   text: |-
@@ -811,6 +799,21 @@ files:
         }
     }
   learner_created: false
+- name: src/main/java/org/hyperskill/ordersmenu/theme/Color.kt
+  visible: true
+  text: |-
+    package org.hyperskill.ordersmenu.theme
+
+    import androidx.compose.ui.graphics.Color
+
+    val Purple200 = Color(0xFFBB86FC)
+    val Purple500 = Color(0xFF6200EE)
+    val Purple700 = Color(0xFF3700B3)
+    val Teal200 = Color(0xFF03DAC5)
+  learner_created: false
 feedback_link: https://hyperskill.org/learn/step/27515#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 09 Jul 2023 21:18:28 UTC"
+record: 2

@@ -12,6 +12,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Restaurant Menu App/task" />
+            <option value="$PROJECT_DIR$/Topics/Function references/All correct function references" />
+            <option value="$PROJECT_DIR$/Topics/Function references/Ascending and descending sorting" />
+            <option value="$PROJECT_DIR$/Topics/Function references/Manipulating with numbers" />
+            <option value="$PROJECT_DIR$/Topics/Function references/Replace the lambda expression with a function reference" />
+            <option value="$PROJECT_DIR$/Topics/Function references/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Interfaces/Comprehension" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Interfaces/Fixing an interface implementation" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Interfaces/Getting familar with implementing Interfaces" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Interfaces/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
