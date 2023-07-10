@@ -1081,5 +1081,8 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/27516#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 10 Jul 2023 05:21:30 UTC"
 record: 3

@@ -15,6 +15,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../../Restaurant Menu App/task/build/intermediates/compile_app_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0558c7989dfb12dc00ad7ea68223c320/transformed/jetified-ui-tooling-1.3.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1394c9b0d1f5f890fddec41d7e0a5eec/transformed/jetified-ui-test-manifest-1.3.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/43aa997f26949ee09b4d1fc4273807d5/transformed/jetified-activity-compose-1.6.1-api.jar</arg>
@@ -120,7 +121,7 @@
     <content url="file://$MODULE_DIR$/../../../../Restaurant Menu App/task/src/androidTestDebug" />
     <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Restaurant_Menu_App.Restaurant_Menu_App-task.main" scope="TEST" />
+    <orderEntry type="module" module-name="Restaurant Menu App.Restaurant_Menu_App.Restaurant_Menu_App-task.main" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.compose.ui:ui-tooling:1.3.3@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.compose.runtime:runtime:1.3.3@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.compose.ui:ui:1.3.3@aar" level="project" />

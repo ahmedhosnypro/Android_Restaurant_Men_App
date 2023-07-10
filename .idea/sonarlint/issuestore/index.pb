@@ -15,3 +15,5 @@ RRestaurant Menu App/task/src/test/java/org/hyperskill/ordersmenu/Stage1UnitTest
 `Restaurant Menu App/task/src/test/java/org/hyperskill/ordersmenu/internals/OrdersMenuUnitTest.kt,9\b\9bc911a862b8da1edc43ca26aa612235308df7f0
 ‚
 RRestaurant Menu App/task/src/test/java/org/hyperskill/ordersmenu/Stage2UnitTest.kt,8\1\815bd9d827bd8307a5e4959ef32118d10a0aed1d
+e
+5Restaurant Menu App/task/src/main/AndroidManifest.xml,9\e\9e4d990aae130908ac5f75653bdb40daed584de2
