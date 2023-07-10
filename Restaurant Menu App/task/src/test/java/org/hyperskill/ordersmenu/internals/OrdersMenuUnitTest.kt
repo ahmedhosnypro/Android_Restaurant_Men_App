@@ -145,20 +145,20 @@ open class OrdersMenuUnitTest<T : Activity>(clazz: Class<T>): AbstractUnitTest<T
             val subList = listOfNodes.drop(i + 1)
             subList.forEach { anotherNode ->
 
-                val hasIntersection = anotherNode.boundsInWindow.intersect(node.boundsInWindow).let {
-                    // from intersect docstring
-                    // 'If the two rectangles do not overlap,
-                    // then the resulting Rect will have a negative width or height'
-                    it.width > 0 && it.height > 0
-                }
+            val hasIntersection = anotherNode.boundsInWindow.intersect(node.boundsInWindow).let {
+                // from intersect docstring
+                // 'If the two rectangles do not overlap,
+                // then the resulting Rect will have a negative width or height'
+                it.width > 0 && it.height > 0
+            }
 
 
-                assert(!hasIntersection) {
-                    val nodeText = node.config.getOrNull(SemanticsProperties.Text).toString()
-                    val anotherNodeText = anotherNode.config.getOrNull(SemanticsProperties.Text).toString()
-                    "View with text $nodeText and bounds ${node.boundsInWindow}" +
-                            " should not overlap " +
-                            "view with text $anotherNodeText and bounds ${anotherNode.boundsInWindow}"
+            assert(!hasIntersection) {
+                val nodeText = node.config.getOrNull(SemanticsProperties.Text).toString()
+                val anotherNodeText = anotherNode.config.getOrNull(SemanticsProperties.Text).toString()
+                "View with text $nodeText and bounds ${node.boundsInWindow}" +
+                    " should not overlap " +
+                    "view with text $anotherNodeText and bounds ${anotherNode.boundsInWindow}"
                 }
             }
         }
