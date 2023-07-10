@@ -3,16 +3,14 @@ package org.hyperskill.ordersmenu
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.safeContentPadding
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.layout.wrapContentWidth
-import androidx.compose.material.Button
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.MaterialTheme.colors
@@ -49,8 +47,14 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-//material 3 dark theme
-
+val recipesNameToStockAmount = mapOf(
+    "Fettuccine" to 5,
+    "Risotto" to 6,
+    "Gnocchi" to 4,
+    "Spaghetti" to 3,
+    "Lasagna" to 5,
+    "Steak Parmigiana" to 2
+)
 
 @Preview(
     showBackground = true,
@@ -67,7 +71,14 @@ fun OrderMenu() {
             fontSize = 48.sp,
             modifier = Modifier.fillMaxWidth()
         )
-        MenuItem("Fettuccine", 5)
+        LazyColumn{
+            items(recipesNameToStockAmount.keys.toList()) { recipeName ->
+                MenuItem(
+                    name = recipeName,
+                    stock = recipesNameToStockAmount[recipeName] ?: 0
+                )
+            }
+        }
     }
 }
 
